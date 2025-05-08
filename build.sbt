@@ -9,6 +9,23 @@ lazy val root = project
     organizationName := "katayama8000",
     startYear := Some(2025),
     licenses += License.MIT,
+    homepage := Some(
+      url(
+        "https://github.com/katayama8000/scala-package-sample"
+      )
+    ),
+    scmInfo := Some(
+      ScmInfo(
+        url("https://github.com/katayama8000/scala-package-sample"),
+        "https://github.com/katayama8000/scala-package-sample.git"
+      )
+    ),
+    developers += Developer(
+      "katayama8000",
+      "katayama8000",
+      "katayama8000",
+      url("https://my-site-seven-theta.vercel.app/")
+    ),
     scalaVersion := scala3Version,
     libraryDependencies += "org.scalameta" %% "munit" % "1.0.0" % Test
   )
