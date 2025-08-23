@@ -23,8 +23,8 @@ lazy val root = project
     developers += Developer(
       "katayama8000",
       "katayama8000",
-      "katayama8000",
-      url("https://my-site-seven-theta.vercel.app/")
+      "tattu.0310@gmail.com",
+      url("https://personal-website-self-pi.vercel.app/")
     ),
     scalaVersion := scala3Version,
     libraryDependencies += "org.scalameta" %% "munit" % "1.0.0" % Test
